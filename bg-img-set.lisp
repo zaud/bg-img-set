@@ -3,7 +3,7 @@
 ;;;; using ImageMagick(display)
 ;;;;
 
-(defparameter base-imgf-dir "/home/zaud6/Kabegami/")
+(defparameter base-imgf-dir "/home/<user_name>/Kabegami/")
 
 (defmacro base-add (str)
   `(concatenate 'string base-imgf-dir ,str))
